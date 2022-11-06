@@ -1,0 +1,48 @@
+.login-page{
+    height: 100vh;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to right top ,#ff4988,#ffc781,#fffefc);
+  }
+  .login-noti{
+    position: absolute !important;
+    right: 0; 
+    top: 10px;
+  }
+  .login-form{
+    height: 460px;
+    width: 950px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 10px;
+  }
+  .login-form-intro{
+    height: 100%;
+    padding: 10px;
+    width: 60%;
+    text-align: center;
+    background-image: url("https://gosmartlog.com/wp-content/uploads/2022/02/Thiet-ke-khong-ten-16.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px 0 0 10px;
+    display: flex;
+    align-items: center;
+  }
+  .login-form-panel img{
+    width: 250px;
+    margin: 20px;
+  }
+  .login-form-panel{
+    width: 40%;
+    height: 100%;
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  .login-form-panel button{
+    width: 100%;
+  }

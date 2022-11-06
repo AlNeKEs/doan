@@ -1,0 +1,14 @@
+.header{
+    padding: 5px 0 0 20px;
+    position: relative;
+}
+.header-title{
+    width: 90%;
+    display: block;
+    color:#293fa9;
+}
+.header-btn{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
